@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 650px;
+    height: 250px;
+    color: white;
+    border: 1px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.relogio div
+{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 80px;
+    border-radius: 15px;
+}
+
+.relogio span.tempo
+{
+    font-size: 15px;
+}
+
+.relogio p
+{
+    font-size: 50px;
+    color: black;
+}
